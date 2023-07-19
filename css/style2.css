@@ -1,1 +1,120 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ############### nav bar styling ############# */
+.navbar input[type='checkbox'],
+.navbar .hamburger-menu{
+    display: none;
+}  
+.navbar{
+    box-shadow: 0px 5px 10px 0px #aaa;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    opacity: .97;
+    z-index: 999;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 2rem;
+    order: 1;
+    font-weight: 600;
+}
+.ul-item{
+    order: 2;
+    display: flex;
+}
+.ul-item li{
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+.ul-item a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    transition: color .2s ease-in-out;
+}
+.navbar a:hover{
+    color: #117964;
+    text-decoration: underline #117964;
+}
+/* ################### Food Menu Styling ####################### */
+.food-main{
+    background: #fff;
+    box-shadow: 0px 5px 5px 5px  #aaa;
+}
+.food-heading{
+    padding-top: 70px;
+    font-size: 4rem;
+    text-align: center;
+    color: #666;
+    font-weight: 500;
+    background: #eff;
+}
+.food-container{
+    background: #eff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0 px 0;
+}
+.food-item{
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.food-item{
+    padding: 2rem 2.3rem;
+}
+.food-item img{
+    display: block;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.food-discription{
+    text-align: center;
+    margin: auto;
+}
+.food-discription .price{
+    font-size: 1.6rem;
+    color: #26a826;
+    font-weight: 500;
+}
+.food-btn{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color:rgb(15, 5, 14);
+}
+.food-btn:hover{
+    border: 3px solid rgb(15, 5, 14);
+    border-radius: 45px;
+    padding: .5rem;
+    cursor: pointer;
+}
