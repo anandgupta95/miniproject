@@ -1,1 +1,43 @@
 
+form {
+  margin: 5px auto;
+  padding: 5px 5px;
+ /* text-align: center;*/
+  width: 800px;
+  height: 400px;
+  
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  color: rgb(167, 74, 74);
+}
+
+input {
+  background: white;
+ /* border: 2px solid gainsboro;*/
+ border-radius: 5%;
+  height: 50px;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+input::placeholder {
+  color: rgba(86, 90, 141, 0.61);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+input[type=submit] {
+  border: 2px solid gainsboro;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgb(97, 176, 179);
+  color: whitesmoke;
+  padding: 5px 5px;
+  margin: 10px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 2px rgb(15, 52, 83);
+}
