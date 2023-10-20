@@ -105,6 +105,13 @@ body {
   background-color: #fff;
 }
 
+
+.menu li{
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
 .header li a {
   display: block;
   padding: 20px 20px;
