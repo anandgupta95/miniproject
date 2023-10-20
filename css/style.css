@@ -108,7 +108,9 @@ body {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  color: #000;
+  font-weight: 400;
+  transition: color .2s ease-in-out;
   text-decoration: none;
 }
 
